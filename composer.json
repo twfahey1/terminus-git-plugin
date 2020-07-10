@@ -1,0 +1,14 @@
+{
+    "name": "tylerfahey/terminus-git-plugin",
+    "description": "Terminus Git plugin - Provides git related shortcuts useful for working with Pantheon sites.",
+    "license": "MIT",
+    "type": "terminus-plugin",
+    "autoload": {
+        "psr-4": { "Pantheon\\TerminusGit\\": "src" }
+    },
+    "extra": {
+        "terminus": {
+            "compatible-version": "^1|^2"
+        }
+    }
+}
